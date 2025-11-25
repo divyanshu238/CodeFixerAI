@@ -27,7 +27,7 @@ public class TestDB {
             Connection conn = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/codefixerai",
                     "root",
-                    "codefixer@123"
+                    "YOUR_PASSWORD"
             );
 
             System.out.println("✅ Connected successfully!");
