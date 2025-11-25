@@ -96,8 +96,47 @@ This project has been developed for academic evaluation and demonstrates key con
 - IntelliJ IDEA (recommended)
 - MySQL Server
 
-### 2. Create Database
+### 2: Download or Clone the Repository
+Option A — Clone using Git
+git clone https://github.com/divyanshu238/CodeFixerAI
+
+Option B — Download ZIP
+Click Code → Download ZIP
+Extract the folder
+
+### 2: Open the Project 
+ - Open Project
+ - Choose the CodeFixerAI folder
+ - Project SDK: JDK 8 or later
+ - Project Language Level: 8 or above
+
+### 3. Create Database
 CREATE DATABASE codefixerai;
+
+### 4: Create the History Table
+Run this inside the database:
+
+USE codefixerai;
+
+CREATE TABLE analysis_history (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    analyzed_at DATETIME NOT NULL,
+    issue_count INT NOT NULL
+);
+
+### 5: Configure DB Credentials
+Open:
+src/com/codefixerai/db/DBConnectionManager.java
+Update if needed:
+
+private static final String URL = "jdbc:mysql://localhost:3306/codefixerai";
+private static final String USER = "root";
+private static final String PASSWORD = "yourpassword";
+
+
+### 6: Run the Application
+Navigate to:
+src/com/codefixerai/main/App.java
 
 ---
 
