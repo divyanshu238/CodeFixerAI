@@ -122,13 +122,18 @@ This project has been developed for academic evaluation and demonstrates key con
 ### 2. Download or Clone the Repository
 
 **Option A — Clone using Git**
-Option B — Download ZIP
+```bash
+git clone https://github.com/divyanshu238/CodeFixerAI
+```
+**Option B — Download ZIP**
 
 Click Code → Download ZIP
 
 Extract the folder
 
-3. Open the Project
+--- 
+
+### 3. Open the Project
 
 Open IntelliJ IDEA
 
@@ -140,10 +145,14 @@ Project SDK: JDK 8 or later
 
 Project Language Level: 8 or above
 
-4. Create Database
+---
+
+### 4. Create Database
 CREATE DATABASE codefixerai;
 
-5. Create the History Table
+---
+
+### 5. Create the History Table
 USE codefixerai;
 
 CREATE TABLE analysis_history (
@@ -152,29 +161,34 @@ CREATE TABLE analysis_history (
     issue_count INT NOT NULL
 );
 
-6. Configure Database Credentials
+--- 
+
+### 6. Configure Database Credentials
 
 Open:
 
-src/com/codefixerai/db/DBConnectionManager.java
+**src/com/codefixerai/db/DBConnectionManager.java**
 
 
-Update if required:
+**Update if required:**
 
 private static final String URL = "jdbc:mysql://localhost:3306/codefixerai";
 private static final String USER = "root";
 private static final String PASSWORD = "yourpassword";
 
-7. Run the Desktop Application
+---
+
+### 7. Run the Desktop Application
 
 Navigate to:
 
-src/com/codefixerai/main/App.java
-
+**src/com/codefixerai/main/App.java**
 
 Run the main class.
 
-8. Run the Web Application (Servlet)
+---
+
+### 8. Run the Web Application (Servlet)
 
 Build the project
 
@@ -186,9 +200,11 @@ Start Tomcat
 
 Open in browser:
 
-http://localhost:8080/codefixer/
+**http://localhost:8080/codefixer/**
 
-✅ Author & Academic Details
+---
+
+### ✅ Author & Academic Details
 
 Name: Divyanshu Upadhyay
 Course: B.Tech
@@ -198,8 +214,9 @@ Project Title: CodeFixer AI – Intelligent Java Code Analyzer
 Project Type: GUI + Servlet + OOP + Multithreading + JDBC
 Year: 2025
 
-✅ Declaration
+---
+
+### ✅ Declaration
 
 I hereby declare that this project titled “CodeFixer AI – Intelligent Java Code Analyzer” has been developed by me as part of my academic submission. All implementation work, source code structure, and feature integrations have been carried out independently for learning and evaluation purposes.
 ```bash
-git clone https://github.com/divyanshu238/CodeFixerAI
