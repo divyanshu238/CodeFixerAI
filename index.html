@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 
+        UTF-8 charset ensures special characters like – (dash)
+        render correctly in all browsers.
+    -->
+    <meta charset="UTF-8">
+
+    <title>CodeFixer AI – Web Interface</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+
+        textarea {
+            width: 100%;
+            height: 220px;
+            font-family: monospace;
+            font-size: 14px;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        p {
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2>CodeFixer AI – Servlet Interface</h2>
+
+<p>
+    Paste Java source code below and click <b>Analyze Code</b>.
+    The request will be sent to the servlet using an HTTP POST request.
+</p>
+
+<form method="post" action="analyze">
+    <label><b>Paste Java Code:</b></label><br><br>
+
+    <textarea name="code">
+public class Test {
+    int x = 5;
+}
+    </textarea>
+    <br>
+
+    <button type="submit">Analyze Code</button>
+</form>
+
+<h3>Result:</h3>
+<p>The analysis result will be displayed as JSON.</p>
+
+</body>
+</html>
