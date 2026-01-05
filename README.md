@@ -206,17 +206,23 @@ Open in browser:
 
 ### ✅ Author & Academic Details
 
-Name: Divyanshu Upadhyay
-Course: B.Tech
-Branch: Computer Science & Engineering
-University: Galgotias University
-Project Title: CodeFixer AI – Intelligent Java Code Analyzer
-Project Type: GUI + Servlet + OOP + Multithreading + JDBC
-Year: 2025
+**Name: Divyanshu Upadhyay**
+
+**Course: B.Tech**
+
+**Branch: Computer Science & Engineering**
+
+**University: Galgotias University**
+
+**Project Title: CodeFixer AI – Intelligent Java Code Analyzer**
+
+**Project Type: GUI + Servlet + OOP + Multithreading + JDBC**
+
+**Year: 2025**
 
 ---
 
 ### ✅ Declaration
 
-I hereby declare that this project titled “CodeFixer AI – Intelligent Java Code Analyzer” has been developed by me as part of my academic submission. All implementation work, source code structure, and feature integrations have been carried out independently for learning and evaluation purposes.
+**I hereby declare that this project titled “CodeFixer AI – Intelligent Java Code Analyzer” has been developed by me as part of my academic submission. All implementation work, source code structure, and feature integrations have been carried out independently for learning and evaluation purposes.**
 ```bash
